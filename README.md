@@ -1,12 +1,20 @@
-# @perrylink/dsh-checkers
+# @perrylink/dsh-checkers-suite
 
 One-command installer for the **53-checker PerryLink compliance suite**.
 
 ```sh
-dsh plugin --profile web add @perrylink/dsh-checkers
+# npm (once the new-package 2FA approval is available)
+dsh plugin --profile web add @perrylink/dsh-checkers-suite
+
+# available now: the GitHub git channel
+dsh plugin --profile web add github:PerryLink/dsh-checkers
 ```
 
 It installs every checker and inserts all 53 Cordis rows through one bundle layer.
+
+**npm publication status:** the name is published from this repo under the
+`@perrylink/dsh-checkers-suite` name, but npm currently stages new package
+versions for 2FA approval. Use the git channel above until that approval lands.
 Each checker keeps its own npm name, rule pack, README, and version; this package
 is only the suite entry point.
 
@@ -15,7 +23,7 @@ legal, government, manufacturing). Every checker reports differences and never
 makes a legal/medical/customs determination. See `checkers.json` for the exact
 list and versions.
 
-**Uninstall:** `dsh plugin --profile web remove @perrylink/dsh-checkers` removes
+**Uninstall:** `dsh plugin --profile web remove @perrylink/dsh-checkers-suite` removes
 the suite row; remove individual checker packages separately if you installed
 them directly.
 

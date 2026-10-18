@@ -1,9 +1,13 @@
-# @perrylink/dsh-checkers
+# @perrylink/dsh-checkers-suite
 
 **53-चेकर PerryLink अनुपालन सूट** के लिए एक-कमांड इंस्टॉलर।
 
 ```sh
-dsh plugin --profile web add @perrylink/dsh-checkers
+# npm (once the new-package 2FA approval is available)
+dsh plugin --profile web add @perrylink/dsh-checkers-suite
+
+# available now: the GitHub git channel
+dsh plugin --profile web add github:PerryLink/dsh-checkers
 ```
 
 यह सभी चेकर इंस्टॉल करता है और एक ही bundle परत से सभी 53 Cordis पंक्तियाँ जोड़ता है।
@@ -14,6 +18,6 @@ dsh plugin --profile web add @perrylink/dsh-checkers
 सरकार, विनिर्माण)। हर चेकर केवल अंतर बताता है, कानूनी/चिकित्सीय/सीमा शुल्क निर्णय नहीं।
 सटीक सूची और संस्करण `checkers.json` में हैं।
 
-**अनइंस्टॉल:** `dsh plugin --profile web remove @perrylink/dsh-checkers`.
+**अनइंस्टॉल:** `dsh plugin --profile web remove @perrylink/dsh-checkers-suite`.
 
 Apache-2.0. बदलाव के बाद `node build.mjs` चलाएँ।

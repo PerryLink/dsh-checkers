@@ -1,9 +1,13 @@
-# @perrylink/dsh-checkers
+# @perrylink/dsh-checkers-suite
 
 Instalador de um comando para a **suíte de 53 verificadores** da PerryLink.
 
 ```sh
-dsh plugin --profile web add @perrylink/dsh-checkers
+# npm (once the new-package 2FA approval is available)
+dsh plugin --profile web add @perrylink/dsh-checkers-suite
+
+# available now: the GitHub git channel
+dsh plugin --profile web add github:PerryLink/dsh-checkers
 ```
 
 Instala todos os verificadores e insere as 53 linhas do Cordis por meio de uma única
@@ -15,6 +19,6 @@ licitações, HSE, medicina, jurídico, governo, manufatura). Cada verificador a
 aponta diferenças e não emite conclusão jurídica/médica/aduaneira. A lista exata e
 as versões estão em `checkers.json`.
 
-**Desinstalar:** `dsh plugin --profile web remove @perrylink/dsh-checkers`.
+**Desinstalar:** `dsh plugin --profile web remove @perrylink/dsh-checkers-suite`.
 
 Apache-2.0. Regenere com `node build.mjs`.
