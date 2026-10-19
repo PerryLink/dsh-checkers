@@ -1,6 +1,6 @@
 # @perrylink/dsh-checkers-suite
 
-Instalador de un solo comando para la **suite de 53 comprobadores** de PerryLink.
+Instalador de un solo comando para la **suite de 53 plugins de cumplimiento** de PerryLink.
 
 ```sh
 # npm (once the new-package 2FA approval is available)
@@ -10,7 +10,7 @@ dsh plugin --profile web add @perrylink/dsh-checkers-suite
 dsh plugin --profile web add github:PerryLink/dsh-checkers
 ```
 
-Instala todos los comprobadores e inserta las 53 filas de Cordis mediante una sola
+Instala todos los plugins de cumplimiento e inserta las 53 filas de Cordis mediante una sola
 capa de bundle. Cada comprobador conserva su nombre npm, paquete de reglas, README
 y versión; este paquete es solo el punto de entrada de la suite.
 
