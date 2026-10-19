@@ -82,5 +82,9 @@
     "dsh-tender-extract": "0.2.11",
     "dsh-tender-matrix": "0.2.12",
     "dsh-warranty-calc": "0.2.10"
-  }
+  },
+  "keywords": [
+    "dsh-plugin",
+    "dsh-bundle"
+  ]
 }
