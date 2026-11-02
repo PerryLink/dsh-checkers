@@ -1,3 +1,5 @@
+> **Moved:** this project is now **[dsh-check-pack](https://github.com/PerryLink/dsh-check-pack)**. This repository stays as a pointer/backup; new work happens in the new home. Old npm packages `@perrylink/dsh-checkers` and `@perrylink/dsh-checkers-suite` are deprecated; install `dsh-check-pack`.
+
 # @perrylink/dsh-checkers-suite
 
 > **पैकेज नाम:** `@perrylink/dsh-checkers` इंस्टॉल करें (वर्तमान shim)। `@perrylink/dsh-checkers-suite` पुराना alias है; अब यह यहाँ इंगित करता है।

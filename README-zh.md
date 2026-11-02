@@ -1,3 +1,5 @@
+> **已迁移：** 本项目现在位于 **[dsh-check-pack](https://github.com/PerryLink/dsh-check-pack)**。本仓库保留为索引/备份，新工作在新仓库进行。旧 npm 包 `@perrylink/dsh-checkers` 与 `@perrylink/dsh-checkers-suite` 已弃用；请安装 `dsh-check-pack`。
+
 # @perrylink/dsh-checkers-suite
 
 > **包名：** 请安装 `@perrylink/dsh-checkers`（当前 shim）。`@perrylink/dsh-checkers-suite` 是已弃用别名，现已指向这里。
